@@ -151,20 +151,20 @@ body {
 
 /*hero section*/
 .hero {
-  max-width: 1440px;
-  margin: 0 auto;
-
   padding: 188px 0;
   flex-shrink: 0;
   background-color: var(--dark-blue-color);
-  background-image: linear-gradient(
-    to bottom,
-    (rgba(46, 47, 66) 0.7),
-    (rgba(46, 47, 66) 0.7),
-    url(../images/hero/people-office\ 1.jpg)
-  );
+  background-image: linear-gradient
+    (
+      to bottom (rgba(46, 47, 66, 0.7)),
+      (rgba(46, 47, 66, 0.7)),
+      url(../images/hero/people-office.jpg)
+    );
   background-repeat: no-repeat;
   background-position: center center;
+
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -229,6 +229,20 @@ body {
 .advantages-layout {
   display: flex;
   gap: 24px;
+}
+
+.advantages-background {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+
+  border-radius: 4px;
+  background: var(--close-to-white-color);
+}
+
+.advantages-icons {
+  fill: none;
+  stroke: var(--dark-blue-color);
 }
 
 .advantages-li {
@@ -336,6 +350,9 @@ body {
 
 .team-list-color {
   background-color: var(--white-color);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 /*footer*/
