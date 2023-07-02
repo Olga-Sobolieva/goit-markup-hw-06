@@ -139,6 +139,9 @@ body {
   background-color: var(--pressed-state-color);
   border-radius: 2px;
   content: '';
+}
+
+.active {
   color: var(--pressed-state-color);
 }
 
