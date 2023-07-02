@@ -140,6 +140,16 @@ body {
   content: '';
 }
 
+.header-nav::after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--pressed-state-color);
+  border-radius: 2px;
+  content: '';
+}
+
 .header-nav:hover,
 .header-nav:focus {
   color: var(--pressed-state-color);
