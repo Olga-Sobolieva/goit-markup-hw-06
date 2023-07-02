@@ -332,6 +332,7 @@ body {
 .team-li {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .team-title {
@@ -392,6 +393,10 @@ body {
 .social-link {
   width: 40px;
   height: 40px;
+
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .background-link {
@@ -434,7 +439,6 @@ body {
 
 .customers-list {
   display: flex;
-
   gap: 24;
 }
 
