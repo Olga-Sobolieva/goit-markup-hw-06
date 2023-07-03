@@ -686,6 +686,11 @@ body {
 
 /*overlay class*/
 
+.overlay-image {
+  position: relative;
+  overflow: hidden;
+}
+
 .projects-link:hover,
 .projects-link:focus {
   transform: translateY(0%);
