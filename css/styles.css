@@ -445,7 +445,7 @@ body {
 
 .customers-layout {
   display: flex;
-  gap: 24;
+  gap: 24px;
 }
 
 .customers-item {
@@ -792,6 +792,7 @@ body {
 .modal-button:focus {
   background-color: var(--pressed-state-color);
   border: none;
+  fill: var(--white-color);
 }
 
 .modal-icon {
