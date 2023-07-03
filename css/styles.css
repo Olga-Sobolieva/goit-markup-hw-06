@@ -602,6 +602,12 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.button-transition:hover,
+.button-transition:focus {
+  box-shadow: зі значенням 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .button-transition {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -800,7 +806,7 @@ body {
   stroke: var(--dark-blue-color);
 }
 
-.modal-icon:hover,
+/*.modal-icon:hover,
 .modal-icon:focus {
   fill: var(--white-color);
-}
+}*/
