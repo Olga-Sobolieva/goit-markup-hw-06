@@ -704,6 +704,7 @@ body {
 .overlay {
   position: relative;
   overflow: hidden;
+  background-color: var(--logo-color);
 }
 
 .overlay:hover .overlay-text {
