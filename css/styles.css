@@ -218,8 +218,6 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
 
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -237,6 +235,7 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /*advantages*/
@@ -272,10 +271,10 @@ body {
   margin-bottom: 8px;
 }
 
-.advantages-icons {
+/*.advantages-icons {
   fill: none;
   stroke: var(--dark-blue-color);
-}
+}*/
 
 .advantages-li {
   width: calc((100% - 72px) / 4);
@@ -374,6 +373,7 @@ body {
 }
 
 .team-position {
+  margin-bottom: 8px;
   text-align: center;
 
   font-size: 16px;
@@ -482,18 +482,14 @@ body {
 
 .customers-icon {
   fill: currentColor;
-  display: inline-flex;
-  padding: 9px 9px 6px 11px;
-  justify-content: center;
-  align-items: center;
 }
 
-.customers-icon-layout {
+/*.customers-icon-layout {
   display: inline-flex;
   padding: 9px 9px 6px 11px;
   justify-content: center;
   align-items: center;
-}
+}*/
 
 /*footer*/
 
@@ -607,6 +603,8 @@ body {
 .portfolio .button-filters:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-color: transparent;
+
   color: var(--white-color);
   background-color: var(--pressed-state-color);
 }
@@ -693,11 +691,6 @@ body {
   overflow: hidden;
 }
 
-.projects-link:hover,
-.projects-link:focus {
-  transform: translateY(0%);
-}
-
 .projects-link:hover .overlay-text,
 .projects-link:focus .overlay-text {
   transform: translateY(0%);
@@ -714,10 +707,8 @@ body {
 }
 
 .overlay-text {
-  display: flex;
   position: absolute;
-  flex-direction: column;
-  flex-shrink: 0;
+
   top: 0;
   left: 0;
   font-size: 16px;
@@ -725,7 +716,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--close-to-white-color);
   align-items: center;
-  text-align: center;
+  text-align: left;
   padding: 40px 32px;
 
   width: 100%;
