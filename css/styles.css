@@ -579,18 +579,23 @@ body {
 
 /*subscribe*/
 
+.subscribe {
+}
+
 .subscribe-paragraph {
   color: var(--white-color);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
+  font-weight: 500;
 
   padding-left: 80px;
+  margin-bottom: 16px;
 }
 
 .subscribe-form {
   display: flex;
-  gap: 16px;
+  gap: 24px;
   align-items: center;
 }
 
@@ -602,7 +607,7 @@ body {
 .subscribe-form-input {
   width: 264px;
   height: 40px;
-  padding: 8px 16 px;
+  padding-left: 16px;
 
   border-radius: 4px;
   border: 1px solid var(--white-color);
@@ -611,11 +616,12 @@ body {
   background-color: transparent;
 
   font-size: 12px;
-  line-height: 24px;
   letter-spacing: 0.48px;
+  line-height: 1.5;
 
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-form-input:focus {
@@ -638,17 +644,21 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.64px;
+  font-weight: 500;
 
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   padding: 8px 24px;
 
   border-radius: 4px;
   background: var(--logo-color);
+  border: none;
   border-color: transparent;
+  cursor: pointer;
 }
 
 .subscribe-icon {
+  margin-left: 16px;
 }
 
 /*PAGE 2*/
