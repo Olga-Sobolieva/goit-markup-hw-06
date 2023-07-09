@@ -459,9 +459,9 @@
           <form class="subscribe-form" name="subscribe_form">
             <label class="subscribe-form-label">
               <input
+                name="subscribe_form_email"
                 class="subscribe-form-input"
                 type="email"
-                name="subscribe_form_email"
                 placeholder="E-mail"
               />
             </label>
@@ -493,22 +493,22 @@
         <!--Input files-->
         <form class="modal-form" name="review_form" autocomplete="on">
           <div class="all-modal-form">
-            <label class="modal-form-filed" for="user_name">
+            <label class="modal-form-filed" for="user-name">
               <span class="modal-form-label">Name</span>
-              <div class="all-modal-input">
-                <input
-                  class="modal-form-input"
-                  type="text"
-                  name="user_name"
-                  id="user-name"
-                />
-                <svg class="modal-form-icon" width="18px" height="24px">
-                  <use href="./images/icons.svg#icon-person"></use>
-                </svg>
-              </div>
             </label>
+            <div class="all-modal-input">
+              <input
+                class="modal-form-input"
+                type="text"
+                name="user_name"
+                id="user-name"
+              />
+              <svg class="modal-form-icon" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
 
-            <label class="modal-form-filed" for="user_phone"
+            <label class="modal-form-filed" for="user-phone"
               ><span class="modal-form-label">Phone</span>
               <div class="all-modal-input">
                 <input
@@ -523,7 +523,7 @@
               </div>
             </label>
 
-            <label class="modal-form-filed" for="user_email"
+            <label class="modal-form-filed" for="user-email"
               ><span class="modal-form-label">Email</span>
               <div class="all-modal-input">
                 <input
