@@ -493,36 +493,58 @@
         <!--Input files-->
         <form class="modal-form" name="review_form" autocomplete="on">
           <div class="all-modal-form">
-            <label class="modal-form-filed">
-              <span class="modal-form-label"> Name </span>
-              <input class="modal-form-input" type="text" name="user_name" />
-              <svg class="modal-form-icon" width="18px" height="24px">
-                <use href="./images/icons.svg#icon-person"></use>
-              </svg>
+            <label class="modal-form-filed" for="user_name">
+              <span class="modal-form-label">Name</span>
+              <div class="all-modal-input">
+                <input
+                  class="modal-form-input"
+                  type="text"
+                  name="user_name"
+                  id="user-name"
+                />
+                <svg class="modal-form-icon" width="18px" height="24px">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
             </label>
 
-            <label class="modal-form-filed"
+            <label class="modal-form-filed" for="user_phone"
               ><span class="modal-form-label">Phone</span>
-              <input class="modal-form-input" type="tel" name="user_phone" />
-              <svg class="modal-form-icon" width="18px" height="24px">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
+              <div class="all-modal-input">
+                <input
+                  class="modal-form-input"
+                  type="tel"
+                  name="user_phone"
+                  id="user-phone"
+                />
+                <svg class="modal-form-icon" width="18px" height="24px">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
             </label>
 
-            <label class="modal-form-filed"
+            <label class="modal-form-filed" for="user_email"
               ><span class="modal-form-label">Email</span>
-              <input class="modal-form-input" type="email" name="user_email" />
-              <svg class="modal-form-icon" width="18px" height="24px">
-                <use href="./images/icons.svg#icon-email"></use>
-              </svg>
+              <div class="all-modal-input">
+                <input
+                  class="modal-form-input"
+                  type="email"
+                  name="user_email"
+                  id="user-email"
+                />
+                <svg class="modal-form-icon" width="18px" height="24px">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
             </label>
 
-            <label class="modal-form-filed"
+            <label class="modal-form-filed" for="user-comment"
               ><span class="modal-form-label">Comment</span
               ><textarea
                 class="modal-comment"
                 name="user_comment"
                 placeholder="Text imput"
+                id="user-comment"
               ></textarea>
             </label>
 
