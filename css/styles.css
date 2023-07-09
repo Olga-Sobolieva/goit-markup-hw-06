@@ -903,6 +903,10 @@ body {
 .modal-form {
 }
 
+.all-modal-form {
+  margin-bottom: 8px;
+}
+
 .modal-form-filed {
   display: block;
   margin-bottom: 8px;
