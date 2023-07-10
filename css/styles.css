@@ -962,7 +962,6 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   fill: var(--dark-blue-color);
-  transition: stroke;
 }
 
 .modal-form-input:focus + .modal-form-icon {
@@ -1023,9 +1022,9 @@ body {
   color: var(--light-gray-color);
 
   font-size: 12px;
-  line-height: 14px;
   letter-spacing: 0.48px;
   user-select: none;
+  line-height: 1.17;
 }
 
 .modal-form-link {
