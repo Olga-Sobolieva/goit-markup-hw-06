@@ -580,6 +580,7 @@ body {
 /*subscribe*/
 
 .subscribe {
+  margin-left: auto;
 }
 
 .subscribe-paragraph {
@@ -589,7 +590,6 @@ body {
   letter-spacing: 0.32px;
   font-weight: 500;
 
-  padding-left: 80px;
   margin-bottom: 16px;
 }
 
@@ -600,8 +600,6 @@ body {
 }
 
 .subscribe-form-label {
-  padding-top: 16px;
-  padding-left: 80px;
 }
 
 .subscribe-form-input {
