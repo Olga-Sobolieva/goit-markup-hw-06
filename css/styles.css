@@ -942,17 +942,6 @@ body {
   border-color: var(--logo-color);
 }
 
-.modal-form-label {
-  display: block;
-  margin-bottom: 4px;
-  color: var(--light-gray-color);
-
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0.48px;
-}
-
 .modal-form-icon {
   position: absolute;
 
@@ -1019,6 +1008,10 @@ body {
 }
 
 .modal-form-agreement-description {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
   color: var(--light-gray-color);
 
   font-size: 12px;
@@ -1052,6 +1045,7 @@ body {
   opacity: 0;
   transform: scale (1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  gap: 8px;
 }
 
 .modal-form-checkbox:checked
