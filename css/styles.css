@@ -655,9 +655,9 @@ body {
   cursor: pointer;
 }
 
-.subscribe-icon {
+/*.subscribe-icon {
   margin-left: 16px;
-}
+}*/
 
 /*PAGE 2*/
 
@@ -838,7 +838,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
-  min-height: 584px;
+  height: 584px;
   padding-top: 72px;
   padding-right: 24px;
   padding-bottom: 24px;
@@ -957,6 +957,7 @@ body {
 }
 
 .modal-comment {
+  display: block;
   color: rgba(46, 47, 66, 0.4);
 
   font-size: 12px;
@@ -976,7 +977,7 @@ body {
 }
 
 .modal-comment::placeholder {
-  color: var(--dark-blue-color);
+  color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
   letter-spacing: 0.48px;
 }
@@ -990,23 +991,10 @@ body {
   margin-bottom: 24px;
 }
 
-/*.modal-form-agreement {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 24px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-
-  color: var(--light-gray-color);
-}*/
-
 .modal-form-checkbox {
 }
 
 .modal-form-agreement-description {
-  /*gap: 8px;*/
   align-items: center;
 
   color: var(--light-gray-color);
@@ -1042,7 +1030,6 @@ body {
 
 .modal-form-checkbox-icon {
   opacity: 0;
-  transform: scale (1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1060,5 +1047,4 @@ body {
   > .modal-form-custom-checkbox
   > .modal-form-checkbox-icon {
   opacity: 1;
-  transform: scale (1);
 }
