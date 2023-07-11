@@ -637,8 +637,6 @@ body {
 
   color: var(--white-color);
 
-  gap: 16px;
-
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.64px;
@@ -655,9 +653,9 @@ body {
   cursor: pointer;
 }
 
-/*.subscribe-icon {
+.subscribe-icon {
   margin-left: 16px;
-}*/
+}
 
 /*PAGE 2*/
 
