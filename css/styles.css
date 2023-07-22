@@ -222,6 +222,11 @@ body {
   color: var(--pressed-state-color);
 }
 
+/* header button */
+.menu-toggle-svg {
+  stroke: var(--dark-blue-color);
+}
+
 /*main*/
 
 /*hero section*/
