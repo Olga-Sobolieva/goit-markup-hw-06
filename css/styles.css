@@ -75,7 +75,7 @@ img {
 }
 
 /*Tablet screen*/
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -1555,6 +1555,9 @@ body {
   .menu-container {
     display: none;
   }
+  .menu-toggle {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 427px) {
@@ -1575,7 +1578,7 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media only screen (min-width: 768px) {
   .menu-toggle {
     display: none;
   }
@@ -1675,6 +1678,7 @@ body {
 
     color: var(--logo-color);
   }
+}
 
   @media only screen and (min-width: 428px) {
     .mobaddress-link.tel {
