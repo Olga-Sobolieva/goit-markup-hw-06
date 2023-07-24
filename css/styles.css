@@ -110,6 +110,13 @@ body {
   align-items: center;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+   .header-container {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .header-li {
     display: none;
@@ -125,11 +132,19 @@ body {
     display: flex;
     gap: 40px;
   }
+  
+  .header-li-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+}
 }
 
 @media only screen and (min-width: 1158px) {
   .header-li-contacts {
     display: flex;
+    flex-direction: row;
     gap: 40px;
   }
 }
@@ -140,7 +155,7 @@ body {
 
 @media only screen and (max-width: 1157px) {
   .header-li-contacts:last-child {
-    margin-bottom: 12px;
+    margin: 12px 0;
   }
 }
 
@@ -159,6 +174,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--pressed-state-color);
+}
+@media only screen and (max-width: 767px) {
+   .logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -213,8 +234,8 @@ body {
 }
 
 .adress-style {
-  display: flex;
-  gap: 40px;
+  /* display: flex;
+  gap: 40px; */
 
   font-style: normal;
 }
@@ -243,7 +264,8 @@ body {
 
 /*hero section*/
 .hero {
-  padding: 188px 0;
+  padding-top: 112px;
+    padding-bottom: 112px;
   flex-shrink: 0;
   background-color: var(--dark-blue-color);
   background-image: linear-gradient(
@@ -320,18 +342,40 @@ body {
 }
 
 .hero-title {
-  max-width: 496px;
+  max-width: 320px;
+
+  font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+ text-align: center;
 
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
+ 
+ 
   color: var(--white-color);
+}
+
+@media only screen and (min-width: 768px) {
+   .hero-title {
+min-width: 496px;
+  margin-bottom: 36px;
+
+   font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 1.12px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+   .hero-title {
+  margin-bottom: 48px;
+  }
 }
 
 .hero-button {
@@ -368,6 +412,12 @@ body {
 
 .advantages {
   padding: 96px 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+  .advantages {
+  margin-left: 16px;
+}
 }
 
 @media screen and (min-width: 1158px) {
@@ -481,8 +531,8 @@ body {
 
   font-size: 36px;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 40px;
+  letter-spacing: 0.72px;
   color: var(--dark-blue-color);
 }
 
@@ -494,7 +544,10 @@ body {
 
 @media only screen and (min-width: 1158px) {
   .advantages-title {
-    font-weight: 500;
+    font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
   }
 }
 
@@ -726,6 +779,13 @@ body {
     display: flex;
     gap: 72px 24px;
     justify-content: center;
+    margin: 0 108px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+  .container {
+    padding: 0;
   }
 }
 
@@ -773,6 +833,21 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+@media only screen and (min-width: 428px) {
+  .customers-page {
+    width: 190px;
+  height: 88px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+   .customers-page {
+    width: 168px;
+  }
+}
+
+
 
 .customers-page:hover,
 .customers-page:focus {
@@ -828,13 +903,18 @@ body {
 
 .horizontal {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+
   gap: 72px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .horizontal {
+  justify-content: flex-start;
+
     max-width: 584px;
+    gap: 24px;
   }
 
   .footer-text {
@@ -851,9 +931,9 @@ body {
   margin-right: 120px;
 } */
 
-.footer-distance {
+/* .footer-distance {
   margin: 0 auto;
-}
+} */
 
 .footer-paragraph {
   font-weight: 500;
@@ -920,11 +1000,11 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media only screen and (max-width: 1157px) {
+/* @media only screen and (max-width: 1157px) {
   .footer-margin {
     margin: 0 auto;
   }
-}
+} */
 
 .footer-social-link {
   width: 100%;
@@ -954,6 +1034,12 @@ body {
 
 .subscribe {
   width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .subscribe {
+  width: 264px;
+}
 }
 
 .subscribe-paragraph {
@@ -1071,6 +1157,16 @@ body {
   .subscribe-button {
     display: inline-flex;
   }
+
+  .subscribe-form-label {
+  margin-bottom: 0;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+  .subscribe-form-input {
+  width: 264px;
+}
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1338,7 +1434,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  width: 100%;
   height: 584px;
   padding-top: 72px;
   padding-right: 24px;
@@ -1350,6 +1446,20 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (min-width: 768px) {
+   .modal {
+    width: 408px;
+  height: 584px;
+  
+  padding-right: 16px;
+  padding-left: 16px;
+  }
+
+  .modal-caption {
+  width: 360px;
+}
 }
 
 .modal-button {
@@ -1383,7 +1493,7 @@ body {
 }
 
 .modal-caption {
-  width: 360px;
+  width: 100%;
   display: block;
 
   color: var(--dark-blue-color);
@@ -1395,7 +1505,13 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
 
-  margin-bottom: 16px;
+  
+}
+
+@media only screen and (min-width: 428px) {
+   .modal-caption {
+    margin-bottom: 16px;
+  }
 }
 
 /**input files**/
@@ -1586,8 +1702,8 @@ body {
 
 @media only screen and (max-width: 767px) {
   .menu-toggle {
-    min-height: 32px;
-    min-width: 32px;
+    min-height: 24px;
+    min-width: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1598,6 +1714,10 @@ body {
     border: none;
     outline: none;
   }
+
+  /* .mobile-menu {
+    padding-bottom: 284px;
+  } */
 
   .menu-toggle-icon {
     stroke: var(--dark-blue-color);
@@ -1706,6 +1826,8 @@ body {
     display: flex;
     justify-content: left;
     align-items: center;
+
+    gap: 24px;
   }
 
   .mobile-social-layout {
