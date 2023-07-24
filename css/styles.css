@@ -779,7 +779,7 @@ letter-spacing: 0.4px;
     display: flex;
     gap: 72px 24px;
     justify-content: center;
-    margin: 0 108px;
+   
   }
 }
 
@@ -787,11 +787,15 @@ letter-spacing: 0.4px;
   .container {
     padding: 0;
   }
+  .customers-layout  { 
+    margin: 0 108px;
+  }
 }
 
 @media only screen and (max-width: 1157px) {
   .customers-layout {
     flex-wrap: wrap;
+    gap: 24px;
   }
 }
 
@@ -1036,7 +1040,7 @@ letter-spacing: 0.4px;
   width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .subscribe {
   width: 264px;
 }
@@ -1173,6 +1177,7 @@ letter-spacing: 0.4px;
   .horizontal {
     flex-wrap: nowrap;
     justify-content: space-between;
+    
     gap: 0;
   }
 
