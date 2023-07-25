@@ -564,7 +564,8 @@ letter-spacing: 0.4px;
 
 @media only screen and (min-width: 428px) and (max-width: 1157px) {
   .advantages-text {
-    width: 356px;
+    max-width: 356px;
+     /* width: calc((100% - 72px) / 2); */
   }
 }
 
