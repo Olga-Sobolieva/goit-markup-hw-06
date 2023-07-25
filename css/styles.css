@@ -111,7 +111,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
-   .header-container {
+  .header-container {
     /* margin-right: 16px;
     margin-left: 16px; */
     padding-right: 16px;
@@ -135,13 +135,12 @@ body {
     display: flex;
     gap: 40px;
   }
-  
-  .header-li-contacts {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
 
-}
+  .header-li-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 
 @media only screen and (min-width: 1158px) {
@@ -179,7 +178,7 @@ body {
   color: var(--pressed-state-color);
 }
 @media only screen and (max-width: 767px) {
-   .logo {
+  .logo {
     padding-top: 24px;
     padding-bottom: 24px;
   }
@@ -268,7 +267,7 @@ body {
 /*hero section*/
 .hero {
   padding-top: 112px;
-    padding-bottom: 112px;
+  padding-bottom: 112px;
   flex-shrink: 0;
   background-color: var(--dark-blue-color);
   background-image: linear-gradient(
@@ -348,36 +347,34 @@ body {
   max-width: 320px;
 
   font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.72px;
- text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-align: center;
 
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 72px;
 
- 
- 
   color: var(--white-color);
 }
 
 @media only screen and (min-width: 768px) {
-   .hero-title {
-min-width: 496px;
-  margin-bottom: 36px;
+  .hero-title {
+    min-width: 496px;
+    margin-bottom: 36px;
 
-   font-size: 56px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 1.12px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
   }
 }
 
 @media only screen and (min-width: 1158px) {
-   .hero-title {
-  margin-bottom: 48px;
+  .hero-title {
+    margin-bottom: 48px;
   }
 }
 
@@ -418,9 +415,9 @@ letter-spacing: 1.12px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
-  /* .advantages {
-  margin-left: 16px; */
-}
+  .advantages-container {
+    max-width: 768px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -548,9 +545,9 @@ letter-spacing: 1.12px;
 @media only screen and (min-width: 1158px) {
   .advantages-title {
     font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
   }
 }
 
@@ -566,7 +563,7 @@ letter-spacing: 0.4px;
 @media only screen and (min-width: 428px) and (max-width: 1157px) {
   .advantages-text {
     max-width: 356px;
-     /* width: calc((100% - 72px) / 2); */
+    /* width: calc((100% - 72px) / 2); */
   }
 }
 
@@ -784,7 +781,6 @@ letter-spacing: 0.4px;
     display: flex;
     gap: 72px 24px;
     justify-content: center;
-   
   }
 }
 
@@ -801,7 +797,6 @@ letter-spacing: 0.4px;
 @media only screen and (max-width: 1157px) {
   .customers-layout {
     flex-wrap: wrap;
-    
   }
 }
 
@@ -847,17 +842,15 @@ letter-spacing: 0.4px;
 @media only screen and (min-width: 428px) {
   .customers-page {
     width: 190px;
-  height: 88px;
+    height: 88px;
   }
 }
 
 @media only screen and (min-width: 768px) {
-   .customers-page {
+  .customers-page {
     max-width: 168px;
   }
 }
-
-
 
 .customers-page:hover,
 .customers-page:focus {
@@ -921,7 +914,7 @@ letter-spacing: 0.4px;
 
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .horizontal {
-  justify-content: flex-start;
+    justify-content: flex-start;
 
     max-width: 584px;
     gap: 72px 24px;
@@ -1047,8 +1040,8 @@ letter-spacing: 0.4px;
 }*/
 
 @media only screen and (max-width: 767px) {
-   .subscribe {
-  width: 100%;
+  .subscribe {
+    width: 100%;
   }
 }
 
@@ -1175,21 +1168,21 @@ letter-spacing: 0.4px;
   }
 
   .subscribe-form-label {
-  margin-bottom: 0;
-}
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .subscribe-form-input {
-  width: 264px;
-}
+    width: 264px;
+  }
 }
 
 @media only screen and (min-width: 1158px) {
   .horizontal {
     flex-wrap: nowrap;
     justify-content: space-between;
-    
+
     gap: 0;
   }
 
@@ -1466,23 +1459,23 @@ letter-spacing: 0.4px;
 }
 
 @media only screen and (min-width: 428px) {
-   .modal {
+  .modal {
     width: 392px;
   }
 }
 
 @media only screen and (min-width: 768px) {
-   .modal {
+  .modal {
     width: 408px;
-  height: 584px;
-  
-  padding-right: 16px;
-  padding-left: 16px;
+    height: 584px;
+
+    padding-right: 16px;
+    padding-left: 16px;
   }
 
   .modal-caption {
-  width: 360px;
-}
+    width: 360px;
+  }
 }
 
 .modal-button {
@@ -1527,12 +1520,10 @@ letter-spacing: 0.4px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
-
-  
 }
 
 @media only screen and (min-width: 428px) {
-   .modal-caption {
+  .modal-caption {
     margin-bottom: 16px;
   }
 }
@@ -1822,55 +1813,54 @@ letter-spacing: 0.4px;
     color: var(--logo-color);
   }
 }
- .mobile-social-li {
-    display: flex;
-    justify-content: left;
-    align-items: center;
+.mobile-social-li {
+  display: flex;
+  justify-content: left;
+  align-items: center;
 
-    gap: 24px;
+  gap: 24px;
+}
+
+@media only screen and (min-width: 428px) {
+  .mobaddress-link.tel {
+    font-size: 36px;
   }
 
-  @media only screen and (min-width: 428px) {
-    .mobaddress-link.tel {
-      font-size: 36px;
-    }
-
-    .mobile-social-li {
-      gap: 56px;
-    }
+  .mobile-social-li {
+    gap: 56px;
   }
+}
 
-  .mobaddress-link.mail {
-    font-style: normal;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.1px;
+.mobaddress-link.mail {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.1px;
 
-    color: var(--text-color);
-  }
+  color: var(--text-color);
+}
 
-  .mobile-address-list:not(:last-child) {
-    margin-bottom: 40px;
-  }
+.mobile-address-list:not(:last-child) {
+  margin-bottom: 40px;
+}
 
-  .mobile-margin {
-    margin-bottom: 48px;
-  }
- 
-  .mobile-social-layout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mobile-margin {
+  margin-bottom: 48px;
+}
 
-    width: 40px;
-    height: 40px;
+.mobile-social-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    border-radius: 50%;
-    background-color: var(--logo-color);
-  }
+  width: 40px;
+  height: 40px;
 
-  .mobile-social-icon {
-    fill: var(--close-to-white-color);
-  }
+  border-radius: 50%;
+  background-color: var(--logo-color);
+}
 
+.mobile-social-icon {
+  fill: var(--close-to-white-color);
+}
